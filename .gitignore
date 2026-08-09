@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Dataset (not included in repo — see README for source)
+framingham.csv
+
+# file
+scratch_main.py
+
+# CatBoost training artifacts (in case allow_writing_files gets re-enabled)
+catboost_info/
+
+# trained model
+# heart-disease-project/heart_risk_lr_model.pkl
