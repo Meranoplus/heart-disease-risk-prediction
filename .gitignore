@@ -41,4 +41,5 @@ scratch_main.py
 catboost_info/
 
 # trained model
-# heart-disease-project/heart_risk_lr_model.pkl
+*.pkl
+*.joblib
